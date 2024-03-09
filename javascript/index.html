@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaderboard</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="handlebar.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+  <div class="leaderBoard">
+    <h1> LeaderBoard </h1>
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th colspan="4">LAST</th>
+          </tr>
+        </thead>
+        <tbody class="table-data">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    LeaderboardTrackingSubscription();
+  });
+</script>
